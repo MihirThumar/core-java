@@ -8,7 +8,7 @@ import java.util.Set;
 /* Practical 22 : Write a program to prepare the list like(“A”, ”B”, ”C”, ”D”, ”A”, ”C”, ”E”, ”E”, ”E”) and remove duplicate values of the list.
  */
 
-public class Practicale22 {
+public class ListString {
 
 	public static void main(String[] args)
 	{

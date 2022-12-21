@@ -1,10 +1,10 @@
 package Corejava;
 
-/* Practical 10 : Wrapper classes
+/* Practical 10 : Wrapperclasses
  * Create a practical to compare two variables of Wrapper class using Wrapper classes.
  * @author MihirThumar
  */
-public class Pratical10 {
+public class Wrapperclasses {
 
 	public int a=1000;
 	public int b;
@@ -13,7 +13,7 @@ public class Pratical10 {
 	{
 		Base base = new Base();
 		base.method();
-		new Pratical10().Function();
+		new Wrapperclasses().Function();
 	}
 
 	public void Function() 
@@ -25,7 +25,7 @@ public class Pratical10 {
 		System.out.println(b);
 	}
 }
-class Base extends Pratical10
+class Base extends Wrapperclasses
 {
 	void method() {
 		System.out.println(super.a);

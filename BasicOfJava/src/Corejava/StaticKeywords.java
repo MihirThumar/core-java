@@ -5,7 +5,7 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Pratical12
+public class StaticKeywords
 {
 	static 
 	{

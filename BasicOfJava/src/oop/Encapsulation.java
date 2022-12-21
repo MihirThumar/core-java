@@ -4,12 +4,12 @@ package oop;
  * Write a program to demonstrate encapsulation
  */
 
-public class Pratical14 {
+public class Encapsulation {
 
 	int length;
 	int breadth;
 
-	public Pratical14(int length, int breadth)
+	public Encapsulation(int length, int breadth)
 	{
 		super();
 		this.length = length;
@@ -24,7 +24,7 @@ public class Pratical14 {
 
 	public static void main(String[] args)
 	{
-		Pratical14 pra = new Pratical14(10, 30);
+		Encapsulation pra = new Encapsulation(10, 30);
 		pra.getArea();
 	}
 }

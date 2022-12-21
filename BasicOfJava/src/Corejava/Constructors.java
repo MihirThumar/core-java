@@ -5,17 +5,17 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Practicle7{
+public class Constructors{
 
 	int a;
-	public Practicle7(int i,int j)
+	public Constructors(int i,int j)
 	{
 		super();
 		a = i*j;
 		System.out.println(a);
 	}
 
-	public Practicle7()
+	public Constructors()
 	{
 		super();
 		System.out.println("in the Constructer");
@@ -23,7 +23,7 @@ public class Practicle7{
 
 	public static void main(String[] args)
 	{
-		Practicle7 practicle72 = new Practicle7();
-		Practicle7 practicle7 = new Practicle7(10, 5);
+		Constructors practicle72 = new Constructors();
+		Constructors practicle7 = new Constructors(10, 5);
 	}
 }

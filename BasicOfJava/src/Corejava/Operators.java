@@ -5,7 +5,7 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Pratical8
+public class Operators
 {
 	static float calculator(float principle,float rate,float time)
 	{

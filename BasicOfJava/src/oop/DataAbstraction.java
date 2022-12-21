@@ -4,7 +4,7 @@ package oop;
  * Write a Program to Demonstrate Data Abstraction.
  */
 
-public class Pratical13 {
+public class DataAbstraction {
 
 	public static void main(String[] args)
 	{

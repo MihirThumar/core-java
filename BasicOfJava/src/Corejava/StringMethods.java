@@ -1,10 +1,10 @@
 package Corejava;
 
-/* Practical 11 : String Methods
+/* Practical 11 : StringMethods
  * Create programs of all the string methods like charAt(), concat(), equals() etc
  * @author MihirThumar
  */
-public class Pratical11{
+public class StringMethods{
 
 	public static void main(String[] args)
 	{

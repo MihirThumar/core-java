@@ -42,11 +42,6 @@ class Employee implements Comparable<Employee>{
 		return "[id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 
-//	public Employee()
-//	{
-//		super();
-//	}
-
 	public Employee(int id, String name, int age)
 	{
 		super();
