@@ -5,21 +5,18 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Pratical8 
+public class Pratical8
 {
-	static float calculator(float principle,float rate,float time) 
+	static float calculator(float principle,float rate,float time)
 	{
 		float emi;
 		rate /= (12*100);
 		time *= 12;
 
-		emi = (float) ((principle * rate * Math.pow(1 + rate, time))
-				/(Math.pow(1+rate, time)-1));
-
+		emi = (float) ((principle * rate * Math.pow(1 + rate, time))/(Math.pow(1+rate, time)-1));
 		return emi ;
 	}
-
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		float principal, rate, time, emi;
         principal = 10000;

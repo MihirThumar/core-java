@@ -5,7 +5,7 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Pratical12 
+public class Pratical12
 {
 	static 
 	{
@@ -19,7 +19,7 @@ public class Pratical12
 
 	static String a = "Static Variable";
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		method1();
 		System.out.println(a);

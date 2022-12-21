@@ -4,9 +4,9 @@ package Corejava;
  * Create programs of all the string methods like charAt(), concat(), equals() etc
  * @author MihirThumar
  */
-public class Pratical11 {
+public class Pratical11{
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		String str = "Hello World";
 		System.out.println(str);

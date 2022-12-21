@@ -15,7 +15,7 @@ public class Pratical10 {
 		base.method();
 		new Pratical10().Function();
 	}
-	
+
 	public void Function() 
 	{
 		this.a = 1500;

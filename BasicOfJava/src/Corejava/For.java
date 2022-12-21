@@ -5,13 +5,14 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class For {
+public class For{
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-		for(int i=0;i<=5;i++) 
+		for(int i=0;i<=5;i++)
 		{
-			for(int j=0;j<=i;j++) {
+			for(int j=0;j<=i;j++)
+			{
 				System.out.print("*");
 			}
 			System.out.println();

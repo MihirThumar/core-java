@@ -7,11 +7,10 @@ import java.util.Scanner;
  * @author MihirThumar
  */
 
-public class IfElse {
+public class IfElse{
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter Your Age");
 		
