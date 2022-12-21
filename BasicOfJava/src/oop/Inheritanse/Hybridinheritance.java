@@ -1,4 +1,4 @@
-package Inheritanse;
+package oop.Inheritanse;
 
 /* Practical 13 :
  * 4) Hybrid Inheritance

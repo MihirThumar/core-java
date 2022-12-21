@@ -1,4 +1,4 @@
-package Inheritanse;
+package oop.Inheritanse;
 
 /* Practical 13 : 
  * 3) Hierarchical Inheritance
