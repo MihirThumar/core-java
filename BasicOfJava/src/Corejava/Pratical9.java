@@ -1,6 +1,9 @@
 package Corejava;
 
-//Wrapper classes
+/* Practical 09 : Wrapper Class
+ * Create a practical to compare two variables of Wrapper class using Wrapper classes
+ * @author MihirThumar
+ */
 
 public class Pratical9 {
 

@@ -1,33 +1,27 @@
 package Corejava;
 
-//Static Keyword
+/* Practical 12 : Static Keywords
+ * Write a program to demonstrate static methods, variables, and blocks.
+ * @author MihirThumar
+ */
 
-public class Pratical12 {
-
-	static int a = 100;
-	static int b = 200;
-	
-	static {
+public class Pratical12 
+{
+	static 
+	{
 		System.out.println("static Block");
 	}
-	
-	static void method1() {
-		System.out.println("calling by class name");
-	}
-	
-	void method2() {
-		System.out.println("calling by object");
-	}
-	
-	public static void main(String[] args) {
-		
-		Pratical12.method1();
-		System.out.println(Pratical12.a);
-		
-		Pratical12 pt = new Pratical12();
-		pt.method2();
-		
-	}
-	
-}
 
+	static void method1() 
+	{
+		System.out.println("Static Method");
+	}
+
+	static String a = "Static Variable";
+
+	public static void main(String[] args) 
+	{
+		method1();
+		System.out.println(a);
+	}
+}

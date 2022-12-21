@@ -1,10 +1,15 @@
 package Corejava;
 
+/* Practical 3 : Switch Case Statement
+ *  Write a program to find the current month name from the given number of the switch case
+ */
+
 import java.util.Scanner;
 
 public class SwitchCaseStatement {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter the month in digit");
 		int month = scanner.nextInt();
@@ -48,5 +53,4 @@ public class SwitchCaseStatement {
 		}
 		scanner.close();
 	}
-	
 }
