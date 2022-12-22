@@ -10,8 +10,7 @@ import java.util.List;
 
 public class ComparablePratical {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 
 		List<Employee> empl = new ArrayList<>();
 		empl.add(new Employee(1, "Rahul", 30));
@@ -21,13 +20,10 @@ public class ComparablePratical {
 
 		Collections.sort(empl);
 
-		for(Employee e:empl)
-		{
+		for(Employee e:empl){
 			System.out.println(e);
 		}
-
 	}
-
 }
 
 class Employee implements Comparable<Employee>{
@@ -37,13 +33,11 @@ class Employee implements Comparable<Employee>{
 	private int age;
 
 	@Override
-	public String toString()
-	{
+	public String toString(){
 		return "[id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 
-	public Employee(int id, String name, int age)
-	{
+	public Employee(int id, String name, int age){
 		super();
 		this.id = id;
 		this.name = name;
@@ -51,8 +45,7 @@ class Employee implements Comparable<Employee>{
 	}
 
 	@Override
-	public int compareTo(Employee emp)
-	{
+	public int compareTo(Employee emp){
 		return (this.id - emp.id);
 	}
 }
