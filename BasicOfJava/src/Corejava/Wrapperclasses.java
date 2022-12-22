@@ -6,18 +6,16 @@ package Corejava;
  */
 public class Wrapperclasses {
 
-	public int a=1000;
+	public int a = 1000;
 	public int b;
-	
-	public static void main(String[] args)
-	{
+
+	public static void main(String[] args) {
 		Base base = new Base();
 		base.method();
 		new Wrapperclasses().Function();
 	}
 
-	public void Function() 
-	{
+	public void Function() {
 		this.a = 1500;
 		System.out.println(a);
 
@@ -25,8 +23,8 @@ public class Wrapperclasses {
 		System.out.println(b);
 	}
 }
-class Base extends Wrapperclasses
-{
+
+class Base extends Wrapperclasses {
 	void method() {
 		System.out.println(super.a);
 	}

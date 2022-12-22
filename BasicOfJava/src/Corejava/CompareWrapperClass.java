@@ -14,7 +14,7 @@ public class CompareWrapperClass {
 		Integer c = 10;
 
 		System.out.println(a.equals(b));
-		System.out.println(b==c);
+		System.out.println(b == c);
 
 	}
 }

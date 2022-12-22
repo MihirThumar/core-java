@@ -5,24 +5,22 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class Constructors{
+public class Constructors {
 
 	int a;
-	public Constructors(int i,int j)
-	{
+
+	public Constructors(int i, int j) {
 		super();
-		a = i*j;
+		a = i * j;
 		System.out.println(a);
 	}
 
-	public Constructors()
-	{
+	public Constructors() {
 		super();
 		System.out.println("in the Constructer");
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Constructors practicle72 = new Constructors();
 		Constructors practicle7 = new Constructors(10, 5);
 	}

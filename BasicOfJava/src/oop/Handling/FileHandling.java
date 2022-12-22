@@ -13,15 +13,16 @@ public class FileHandling {
 	public static void main(String[] args) {
 
 		try {
-		File file = new File("C:\\Users\\admin\\Desktop\\myTestFile.txt");
-			if(file.createNewFile()) {
+			File file = new File("C:\\Users\\admin\\Desktop\\myTestFile.txt");
+			if (file.createNewFile()) {
 				System.out.println("File Created " + file.getName());
-			}else {
+			} else {
 				System.out.println("File Alredy Exits");
 			}
 
 			FileWriter writer = new FileWriter("C:\\Users\\admin\\Desktop\\myTestFile.txt");
-			writer.write("My Name is Mihir\nI am 21 year Old\nI currently prsuing my graduation in Dr.Shubhas");
+			writer.write("My Name is Mihir" + "\n" + "I am 21 year Old" + "\n"
+					+ "I currently prsuing my graduation in Dr.Shubhas");
 			writer.close();
 		} catch (IOException e) {
 			System.out.println("Error..... " + e.getMessage());

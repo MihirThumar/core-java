@@ -6,34 +6,23 @@ package oop;
 
 public class Errorhandling {
 
-	static void age(int age) throws ArithmeticException
-	{
-		if(age < 18)
-		{
+	static void age(int age) throws ArithmeticException {
+		if (age <= 17) {
 			throw new ArithmeticException("you are not able to drive");
-		}
-		else
-		{
+		} else {
 			System.out.println("you are able to drive");
 		}
 	}
 
-	public static void main(String[] args)
-	{
-		String message = null;
-		try
-		{
-			int a = 10/0;
-		}
-		catch (Exception e)
-		{
-			message = e.getMessage();
-		}
-		finally
-		{
+	public static void main(String[] args) {
+		try {
+			int a = 10 / 0;
+		} catch (Exception e) {
 			System.out.println("Error handled......");
-			System.out.println("Error is... "+message);
+			System.out.println("Error is... " + e.getMessage());
+		} finally {
+			System.out.println("Finally Block Run Everytime");
 		}
-		age(15);
+		age(17);
 	}
 }

@@ -5,28 +5,24 @@ package oop;
  *  Write a program to demonstrate two types of polymorphism like compile-time and runtime Polymorphism
  */
 
-public class Polymorphism implements A{
-	
+public class Polymorphism implements A {
+
 	@Override
-	public void show()
-	{
+	public void show() {
 		System.out.println("Run-time Polymorphism");
 	}
 
-	public void sum(int a,int b)
-	{
+	public void sum(int a, int b) {
 		int z = a + b;
 		System.out.println(z);
 	}
-	
-	public void sum(int a,double b)
-	{
+
+	public void sum(int a, double b) {
 		double z = a + b;
 		System.out.println(z);
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Polymorphism polymorphism = new Polymorphism();
 		polymorphism.show();
 		polymorphism.sum(10, 20);
@@ -34,7 +30,6 @@ public class Polymorphism implements A{
 	}
 }
 
-interface A
-{
+interface A {
 	public void show();
 }

@@ -8,8 +8,8 @@ import java.util.*;
 
 public class Iterat {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
+
 		List<String> list = new ArrayList<>();
 		list.add("Hello");
 		list.add("World");
@@ -17,8 +17,7 @@ public class Iterat {
 
 		Iterator<String> iterator = list.iterator();
 
-		while(iterator.hasNext())
-		{
+		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
 	}

@@ -22,20 +22,20 @@ public class CompartorPractical {
 		Employe employe = new Employe();
 
 //		Print vlaue by id
-		Collections.sort(empl,employe.idComparator);
-		for(Employe e : empl) {
+		Collections.sort(empl, employe.idComparator);
+		for (Employe e : empl) {
 			System.out.println(e);
 		}
 
 //		Print vlaue by Name
-		Collections.sort(empl,employe.nameComparator);
-		for(Employe e : empl) {
+		Collections.sort(empl, employe.nameComparator);
+		for (Employe e : empl) {
 			System.out.println(e);
 		}
 
 //		Print vlaue by Age
-		Collections.sort(empl,employe.ageComparator);
-		for(Employe e : empl) {
+		Collections.sort(empl, employe.ageComparator);
+		for (Employe e : empl) {
 			System.out.println(e);
 		}
 	}
@@ -88,6 +88,7 @@ class Employe {
 			return (e1.getId() - e2.getId());
 		}
 	};
+
 	public Comparator<Employe> ageComparator = new Comparator<Employe>() {
 		@Override
 		public int compare(Employe e1, Employe e2) {
@@ -95,7 +96,7 @@ class Employe {
 		}
 	};
 
-	public Comparator<Employe> nameComparator = new Comparator<Employe>() {	
+	public Comparator<Employe> nameComparator = new Comparator<Employe>() {
 		@Override
 		public int compare(Employe e1, Employe e2) {
 			return e1.getName().compareTo(e2.getName());
@@ -104,6 +105,6 @@ class Employe {
 
 	@Override
 	public String toString() {
-		return "id=" + id + ", name=" + name + ", age=" + age ;
+		return "id=" + id + ", name=" + name + ", age=" + age;
 	}
 }

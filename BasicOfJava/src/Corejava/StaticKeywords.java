@@ -5,22 +5,18 @@ package Corejava;
  * @author MihirThumar
  */
 
-public class StaticKeywords
-{
-	static 
-	{
+public class StaticKeywords {
+	static {
 		System.out.println("static Block");
 	}
 
-	static void method1() 
-	{
+	static void method1() {
 		System.out.println("Static Method");
 	}
 
 	static String a = "Static Variable";
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		method1();
 		System.out.println(a);
 	}

@@ -6,18 +6,16 @@ package oop;
 
 public class Array {
 
-	String[] arrayOfStudent = {"Ramesh","Rahul","Mitul","Rohan","Pream"};
+	String[] arrayOfStudent = { "Ramesh", "Rahul", "Mitul", "Rohan", "Pream" };
 
-	public void arryMethod()
-	{
-		for(int i=0;i<arrayOfStudent.length;i++)
-		{
-			System.out.println(i+" "+arrayOfStudent[i]);
+	public void arryMethod() {
+
+		for (int i = 0; i < arrayOfStudent.length; i++) {
+			System.out.println(i + " " + arrayOfStudent[i]);
 		}
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Array array = new Array();
 		array.arryMethod();
 	}

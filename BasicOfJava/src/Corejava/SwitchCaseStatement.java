@@ -8,8 +8,7 @@ import java.util.Scanner;
 
 public class SwitchCaseStatement {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter the month in digit");
 		int month = scanner.nextInt();

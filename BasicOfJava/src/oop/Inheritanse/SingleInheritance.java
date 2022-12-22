@@ -8,20 +8,17 @@ public class SingleInheritance extends OldFather {
 
 	private String sonName = "Tapu";
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		SingleInheritance single = new SingleInheritance();
 		single.lastName();
-		System.out.println(single.firstName+" "+single.sonName);
+		System.out.println(single.firstName + " " + single.sonName);
 	}
 }
 
-class OldFather
-{
+class OldFather {
 	String firstName = "ChampakChaha";
 
-	public void lastName()
-	{
+	public void lastName() {
 		System.out.println("Gadha");
 	}
 }

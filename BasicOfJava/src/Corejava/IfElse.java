@@ -7,20 +7,18 @@ import java.util.Scanner;
  * @author MihirThumar
  */
 
-public class IfElse{
+public class IfElse {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
+
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter Your Age");
-		
+
 		int age = scanner.nextInt();
 
-		if(age>=18) 
-		{
+		if (age >= 18) {
 			System.out.println("you are able to Drive");
-		}else 
-		{
+		} else {
 			System.out.println("sorry you are not able to Drive");
 		}
 		scanner.close();

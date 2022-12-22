@@ -10,29 +10,23 @@ import java.util.Set;
 
 public class ListString {
 
-	public static void main(String[] args)
-	{
-		String[] arr = {"A","B","C","D","A","C","E","E","E"};
+	public static void main(String[] args) {
+		String[] arr = { "A", "B", "C", "D", "A", "C", "E", "E", "E" };
 
 		List<String> list = new ArrayList<>();
 
-		for(String a : arr)
-		{
+		for (String a : arr) {
 			list.add(a);
 		}
 
 		Set<String> set = new HashSet<>();
 
-		for(String s : list) 
-		{
+		for (String s : list) {
 			set.add(s);
 		}
 
-		for(String s : set)
-		{
+		for (String s : set) {
 			System.out.println(s);
 		}
-
 	}
-
 }

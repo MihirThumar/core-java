@@ -21,8 +21,8 @@ public class ReadFile {
 		File file = new File("C:\\Users\\admin\\Desktop\\myTestFile.txt");
 //		Using Scanner
 		try {
-		Scanner scanner = new Scanner(file);
-			while(scanner.hasNextLine()) {
+			Scanner scanner = new Scanner(file);
+			while (scanner.hasNextLine()) {
 				System.out.println(scanner.nextLine());
 			}
 			scanner.close();
@@ -36,7 +36,7 @@ public class ReadFile {
 		try {
 			RandomAccessFile file2 = new RandomAccessFile("C:\\Users\\admin\\Desktop\\myTestFile.txt", "r");
 			String str;
-			while((str=file2.readLine())!=null) {
+			while ((str = file2.readLine()) != null) {
 				System.out.println(str);
 			}
 			file2.close();
@@ -50,7 +50,7 @@ public class ReadFile {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			String st;
-			while((st = br.readLine())!=null) {
+			while ((st = br.readLine()) != null) {
 				System.out.println(st);
 			}
 		} catch (IOException e) {
@@ -63,8 +63,8 @@ public class ReadFile {
 		try {
 			FileReader fr = new FileReader(file);
 			int i;
-			while((i = fr.read()) != -1) {
-				System.out.print((char)i);
+			while ((i = fr.read()) != -1) {
+				System.out.print((char) i);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

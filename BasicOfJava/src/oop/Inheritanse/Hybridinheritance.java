@@ -4,21 +4,18 @@ package oop.Inheritanse;
  * 4) Hybrid Inheritance
  */
 
-public class Hybridinheritance extends Liger implements Lion,Tiger {
+public class Hybridinheritance extends Liger implements Lion, Tiger {
 
 	@Override
-	public void show()
-	{
+	public void show() {
 		System.out.println("Lion And Tiger intergface Methods");
 	}
 
-	public void displayHybrid()
-	{
+	public void displayHybrid() {
 		System.out.println("method in hybridInheritance");
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Hybridinheritance hybridinheritance = new Hybridinheritance();
 		hybridinheritance.displayLiger();
 		hybridinheritance.displayHybrid();
@@ -26,19 +23,16 @@ public class Hybridinheritance extends Liger implements Lion,Tiger {
 	}
 }
 
-class Liger{
-	public void displayLiger()
-	{
+class Liger {
+	public void displayLiger() {
 		System.out.println("inside Liger Class");
 	}
 }
 
-interface Lion
-{
+interface Lion {
 	public void show();
 }
 
-interface Tiger
-{
+interface Tiger {
 	public void show();
 }

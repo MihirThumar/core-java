@@ -6,27 +6,24 @@ package oop;
 
 public class DataAbstraction {
 
-	public static void main(String[] args)
-	{
-		Sharigaan sh = new Sharigaan();
-		sh.mangekyo();
-		sh.iternalMangekyo();
+	public static void main(String[] args) {
+		B b = new B();
+		b.show();
+		b.display();
 	}
 }
 
-abstract class MangekyoSharigaan
-{
-	abstract void mangekyo();
-	
-	void iternalMangekyo() {
+abstract class X {
+	abstract void show();
+
+	void display() {
 		System.out.println("Non abstract Method");
 	}
 }
 
-class Sharigaan extends MangekyoSharigaan
-{
+class B extends X {
 	@Override
-	void mangekyo() {
+	void show() {
 		System.out.println("in abstract method");
 	}
 }
