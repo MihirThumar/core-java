@@ -4,7 +4,7 @@ package Corejava;
  * Write a practical to use this/super variable
  * @author MihirThumar
  */
-public class Wrapperclasses {
+public class WrapperClasses {
 
 	public int a = 1000;
 	public int b;
@@ -12,7 +12,7 @@ public class Wrapperclasses {
 	public static void main(String[] args) {
 		Base base = new Base();
 		base.method();
-		new Wrapperclasses().Function();
+		new WrapperClasses().Function();
 	}
 
 	public void Function() {
@@ -25,7 +25,7 @@ public class Wrapperclasses {
 
 }
 
-class Base extends Wrapperclasses {
+class Base extends WrapperClasses {
 
 	void method() {
 		System.out.println(super.a);
