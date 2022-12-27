@@ -12,7 +12,6 @@ import java.util.List;
 public class CompartorPractical {
 
 	public static void main(String[] args) {
-
 		List<Employe> empl = new ArrayList<>();
 		empl.add(new Employe(1, "Rahul", 30));
 		empl.add(new Employe(4, "Om", 20));

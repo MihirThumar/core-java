@@ -9,16 +9,14 @@ import java.util.*;
 public class Iterat {
 
 	public static void main(String[] args) {
-
 		List<String> list = new ArrayList<>();
 		list.add("Hello");
 		list.add("World");
 		list.add("Mihir");
-
 		Iterator<String> iterator = list.iterator();
-
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
 	}
+
 }

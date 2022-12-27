@@ -6,10 +6,8 @@ package oop;
 
 public class Array {
 
-	String[] arrayOfStudent = { "Ramesh", "Rahul", "Mitul", "Rohan", "Pream" };
-
 	public void arryMethod() {
-
+		String[] arrayOfStudent = { "Ramesh", "Rahul", "Mitul", "Rohan", "Pream" };
 		for (int i = 0; i < arrayOfStudent.length; i++) {
 			System.out.println(i + " " + arrayOfStudent[i]);
 		}
@@ -19,4 +17,5 @@ public class Array {
 		Array array = new Array();
 		array.arryMethod();
 	}
+
 }

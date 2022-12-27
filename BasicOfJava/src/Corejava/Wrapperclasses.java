@@ -1,7 +1,7 @@
 package Corejava;
 
 /* Practical 10 : Wrapperclasses
- * Create a practical to compare two variables of Wrapper class using Wrapper classes.
+ * Write a practical to use this/super variable
  * @author MihirThumar
  */
 public class Wrapperclasses {
@@ -22,10 +22,13 @@ public class Wrapperclasses {
 		this.b = 2000;
 		System.out.println(b);
 	}
+
 }
 
 class Base extends Wrapperclasses {
+
 	void method() {
 		System.out.println(super.a);
 	}
+
 }

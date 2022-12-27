@@ -11,19 +11,24 @@ public class DataAbstraction {
 		b.show();
 		b.display();
 	}
+
 }
 
 abstract class X {
+
 	abstract void show();
 
 	void display() {
-		System.out.println("Non abstract Method");
+		System.out.println("Non abstract method");
 	}
+
 }
 
 class B extends X {
+
 	@Override
 	void show() {
-		System.out.println("in abstract method");
+		System.out.println("In abstract method");
 	}
+
 }

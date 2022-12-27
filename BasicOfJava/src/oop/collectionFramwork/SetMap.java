@@ -12,14 +12,12 @@ import java.util.Set;
 public class SetMap {
 
 	public static void main(String[] args) {
-
 		int[] arr = { 1, 2, 3, 1, 2, 4, 5, 6, 6, 7, 4, 5, 2 };
+		
 		Set<Integer> set = new HashSet<>();
-
 		for (Integer i : arr) {
 			set.add(i);
 		}
-
 		for (Integer i : set) {
 			System.out.println(i);
 		}
@@ -34,4 +32,5 @@ public class SetMap {
 			System.out.println(map.get(i));
 		}
 	}
+
 }

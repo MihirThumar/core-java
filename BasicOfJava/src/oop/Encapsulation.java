@@ -24,4 +24,5 @@ public class Encapsulation {
 		Encapsulation pra = new Encapsulation(10, 30);
 		pra.getArea();
 	}
+
 }

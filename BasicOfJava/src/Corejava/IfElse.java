@@ -10,17 +10,15 @@ import java.util.Scanner;
 public class IfElse {
 
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please Enter Your Age");
-
+		System.out.println("Please enter your age");
 		int age = scanner.nextInt();
-
 		if (age >= 18) {
-			System.out.println("you are able to Drive");
+			System.out.println("You are able to drive");
 		} else {
-			System.out.println("sorry you are not able to Drive");
+			System.out.println("Sorry you are not able to drive");
 		}
 		scanner.close();
 	}
+
 }

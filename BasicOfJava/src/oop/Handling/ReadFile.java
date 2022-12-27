@@ -17,7 +17,6 @@ import java.util.Scanner;
 public class ReadFile {
 
 	public static void main(String[] args) {
-
 		File file = new File("C:\\Users\\admin\\Desktop\\myTestFile.txt");
 //		Using Scanner
 		try {
@@ -29,9 +28,8 @@ public class ReadFile {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-
 		System.out.println();
-
+		
 //		Uisng RandomAccessFile
 		try {
 			RandomAccessFile file2 = new RandomAccessFile("C:\\Users\\admin\\Desktop\\myTestFile.txt", "r");
@@ -43,7 +41,6 @@ public class ReadFile {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		System.out.println();
 
 //		Using BufferReader
@@ -56,7 +53,6 @@ public class ReadFile {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		System.out.println();
 
 //		Using FileReader
@@ -69,7 +65,6 @@ public class ReadFile {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		System.out.println();
 		System.out.println();
 
@@ -82,4 +77,5 @@ public class ReadFile {
 			e.printStackTrace();
 		}
 	}
+
 }

@@ -8,9 +8,9 @@ public class Errorhandling {
 
 	static void age(int age) throws ArithmeticException {
 		if (age <= 17) {
-			throw new ArithmeticException("you are not able to drive");
+			throw new ArithmeticException("You are not able to drive");
 		} else {
-			System.out.println("you are able to drive");
+			System.out.println("You are able to drive");
 		}
 	}
 
@@ -21,8 +21,9 @@ public class Errorhandling {
 			System.out.println("Error handled......");
 			System.out.println("Error is... " + e.getMessage());
 		} finally {
-			System.out.println("Finally Block Run Everytime");
+			System.out.println("Finally block run everytime");
 		}
 		age(17);
 	}
+
 }

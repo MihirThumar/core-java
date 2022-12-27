@@ -6,18 +6,19 @@ package Corejava;
  */
 
 public class StaticKeywords {
+
 	static {
-		System.out.println("static Block");
+		System.out.println("static block");
 	}
 
 	static void method1() {
-		System.out.println("Static Method");
+		System.out.println("Static method");
 	}
-
-	static String a = "Static Variable";
+	static String a = "Static variable";
 
 	public static void main(String[] args) {
 		method1();
 		System.out.println(a);
 	}
+	
 }

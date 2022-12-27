@@ -9,7 +9,7 @@ public class Polymorphism implements A {
 
 	@Override
 	public void show() {
-		System.out.println("Run-time Polymorphism");
+		System.out.println("Run-time polymorphism");
 	}
 
 	public void sum(int a, int b) {
@@ -31,5 +31,7 @@ public class Polymorphism implements A {
 }
 
 interface A {
+	
 	public void show();
+
 }

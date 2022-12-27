@@ -11,19 +11,17 @@ import java.util.List;
 public class ComparablePratical {
 
 	public static void main(String[] args) {
-
 		List<Employee> empl = new ArrayList<>();
 		empl.add(new Employee(1, "Rahul", 30));
 		empl.add(new Employee(4, "Om", 20));
 		empl.add(new Employee(2, "Ramesh", 35));
 		empl.add(new Employee(3, "Rohan", 40));
-
 		Collections.sort(empl);
-
 		for (Employee e : empl) {
 			System.out.println(e);
 		}
 	}
+
 }
 
 class Employee implements Comparable<Employee> {
@@ -48,4 +46,5 @@ class Employee implements Comparable<Employee> {
 	public int compareTo(Employee emp) {
 		return (this.id - emp.id);
 	}
+
 }

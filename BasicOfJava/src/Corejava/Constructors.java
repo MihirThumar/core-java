@@ -7,21 +7,20 @@ package Corejava;
 
 public class Constructors {
 
-	int a;
-
 	public Constructors(int i, int j) {
 		super();
-		a = i * j;
+		int a = i * j;
 		System.out.println(a);
 	}
 
 	public Constructors() {
 		super();
-		System.out.println("in the Constructer");
+		System.out.println("In the constructer");
 	}
 
 	public static void main(String[] args) {
-		Constructors practicle72 = new Constructors();
-		Constructors practicle7 = new Constructors(10, 5);
+		Constructors con = new Constructors();
+		Constructors cons = new Constructors(10, 5);
 	}
+
 }

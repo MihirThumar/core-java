@@ -23,6 +23,7 @@ public class MultiLevel extends Son {
 }
 
 class Father {
+
 	public Father() {
 		System.out.println("Class Father");
 	}
@@ -30,9 +31,11 @@ class Father {
 	public void fatherName() {
 		System.out.println("ChampkChaha");
 	}
+
 }
 
 class Son extends Father {
+
 	public Son() {
 		System.out.println("Class Son");
 	}
@@ -44,4 +47,5 @@ class Son extends Father {
 	public void favouriteFood() {
 		System.out.println("Dhokda");
 	}
+
 }

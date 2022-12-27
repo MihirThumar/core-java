@@ -12,15 +12,13 @@ public class ListString {
 
 	public static void main(String[] args) {
 		String[] arr = { "A", "B", "C", "D", "A", "C", "E", "E", "E" };
-
+	
 		List<String> list = new ArrayList<>();
-
 		for (String a : arr) {
 			list.add(a);
 		}
-
+	
 		Set<String> set = new HashSet<>();
-
 		for (String s : list) {
 			set.add(s);
 		}
@@ -29,4 +27,5 @@ public class ListString {
 			System.out.println(s);
 		}
 	}
+
 }
