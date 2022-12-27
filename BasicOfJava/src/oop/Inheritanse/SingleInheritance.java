@@ -7,7 +7,7 @@ package oop.Inheritanse;
 public class SingleInheritance extends OldFather {
 
 	private String sonName = "Tapu";
-	
+
 	public static void main(String[] args) {
 		SingleInheritance single = new SingleInheritance();
 		single.lastName();
