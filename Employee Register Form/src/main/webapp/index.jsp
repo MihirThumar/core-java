@@ -20,27 +20,27 @@
             <div class="container">
                 <div class="input_field">
                     <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" placeholder="Enter your name here">
+                    <input type="text" id="firstName" name="first_name" placeholder="Enter your name here">
                 </div>
                 <div class="input_field">
                     <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" placeholder="Enter your last name here">
+                    <input type="text" id="lastName" name="last_name" placeholder="Enter your last name here">
                 </div>
                 <div class="input_field">
                     <label for="userName">User Name</label>
-                    <input type="text" id="userName" placeholder="Enter your user name here">
+                    <input type="text" id="userName" name="user_name" placeholder="Enter your user name here">
                 </div>
                 <div class="input_field">
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Enter your password here">
+                    <input type="password" id="password" name="password" placeholder="Enter your password here">
                 </div>
                 <div class="input_field">
                     <label for="address">Address</label>
-                    <input type="text" id="address" placeholder="Enter your address here">
+                    <input type="text" id="address" name="address" placeholder="Enter your address here">
                 </div>
                 <div class="input_field">
                     <label for="contact">Contact</label>
-                    <input type="text" id="contact" placeholder="Enter your contact number">
+                    <input type="text" id="contact" name="contact" placeholder="Enter your contact number">
                 </div>
                 <div class="btn">
                     <button class="submit_btn">Save</button>
